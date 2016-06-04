@@ -1,0 +1,132 @@
+
+
+div
+{
+    border-radius: 5px;
+    }
+    
+#sansserif {
+	/*font-family: "cooper";*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5,#serif {
+    font-family: "Times New Roman", Times, serif;
+}
+
+#header
+{
+	border-radius:15px;
+    /*position: fixed;*/
+    z-index: 1;
+    height:121px;
+    width: 98%;
+    background-color: #668284;
+    margin-bottom: 25px;
+    box-shadow: 10px 10px 5px #888888;
+    }
+
+#name { 
+	text-align:center;
+	padding-top: 10px;
+	font-size: 19px;
+	font-family: Verdana, sans-serif;
+	text-shadow: 3px 3px 8px #FF0000;
+
+}
+
+#email{
+    float:right;
+    margin-right: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#contact
+{   
+	float:left;
+    padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+    }
+
+a:hover {
+    font-weight: bold;
+}
+
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+	
+    justify-content:space-between; 
+	border:1px;
+    background-color:black;
+    color: lightpink;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 15px 4px 0 0;
+}
+
+ul#menu li a:hover {
+    background-color: orange;
+}
+
+#line-height {
+	line-height:1.5;
+	
+}
+
+.bullets
+{
+	list-style-type: circle;
+}
+
+.right
+{
+    float: left;
+    margin-top: 8px;
+    padding-left:1px;
+    height: auto;
+    width: 98%;
+    background-color: #E3EDD8;
+    }
+
+#footer
+{
+    height:40px;
+    clear:both;
+    position: relative;
+    background-color: #C1E3E1;
+    }
+    
+h3,h5
+{   background-color:#d5edb3;
+    text-decoration: underline;
+    }
+
+table {
+	
+	border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table,th, td {
+    padding: 2px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+    
+ol
+{   
+	list-style-type: square;
+}

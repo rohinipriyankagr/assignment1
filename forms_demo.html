@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+ 	<meta charset="UTF-8">
+	<link type="text/css" rel="stylesheet" href="C:\Users\Rohini Priyanka\Desktop\formsdemo.css"/>
+    <title>Forms Page</title>
+</head>
+
+<body bgcolor="pink">
+ <marquee scrollamount="10"
+					direction="left" behavior="scroll" >
+					<img src="C:\Users\Rohini Priyanka\Desktop\Photo1.jpg" style="width:100px;height:100px"/>
+					<img src="C:\Users\Rohini Priyanka\Desktop\Photo1.jpg" style="width:100px;height:100px"/>
+					<img src="C:\Users\Rohini Priyanka\Desktop\Photo1.jpg" style="width:100px;height:100px"/>
+					<img src="C:\Users\Rohini Priyanka\Desktop\Photo1.jpg" style="width:100px;height:100px"/>
+					<img src="C:\Users\Rohini Priyanka\Desktop\Photo1.jpg" style="width:100px;height:100px"/>
+					<img src="C:\Users\Rohini Priyanka\Desktop\Photo1.jpg" style="width:100px;height:100px"/>
+					<img src="C:\Users\Rohini Priyanka\Desktop\Photo1.jpg" style="width:100px;height:100px"/>
+					<img src="C:\Users\Rohini Priyanka\Desktop\Photo1.jpg" style="width:100px;height:100px"/>
+					<img src="C:\Users\Rohini Priyanka\Desktop\Photo1.jpg" style="width:100px;height:100px"/>
+				</marquee>
+
+	<div>
+		<form action="action_page.php" autocomplete="on">
+			<fieldset>
+				
+   <legend>Personal information:</legend>
+  <p> 
+  First name:<br>
+  <input type="text" name="firstname" size="35">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" size="35">
+  <br>
+  my password:<br>
+  <input type="password" name="psw" size="10" maxlength="10"><br>
+  E-mail: <br>
+  <input type="email" name="email" autocomplete="off"><br>
+  Phone:<br>
+  <input type="text" name="phone" maxlength="10"><br>
+  
+  Birthday: <br>
+  <input type="date"  name="Birth Date"><br>
+  
+  what browser do you use : <br>
+  <input type="radio" name="browser" value="Internet explorer">IE<br>
+  <input type="radio" name="browser" value="Chrome">Chrome<br>
+  <input type="radio" name="browser" value="Mozilla Firefox">Firefox <br>
+  
+  which chocalates are best: <br>
+  <input type="checkbox" name="chocalates" value="Dairymilk- Fruit n nut">Dairymilk<br>
+  <input type="checkbox" name="chocalates" value="Snickers">Snickers<br>
+  <input type="checkbox" name="chocalates" value="Dark chocalate">Dark chocalate<br>
+  
+  How cool is it ? :
+   <input type ="Range" min="0" max= "100"/><br>
+   
+  select the car you like :
+  <select name="cars">
+  <option value="volvo">Volvo XC90</option>
+  <option value="subaru">impreza</option>
+  <option value="mercedes">Mercedes SLK-AMG</option>
+  <option value="audi">Audi A8</option>
+   </select><br>
+   
+   <INPUT TYPE="NUMBER" MIN="0" MAX="10" STEP="2" VALUE="1" SIZE="6"><br>
+   
+   <datalist id="">
+    <option value="Moto G">
+    <option value="Sony z3 plus">
+    <option value="Note 5">
+    <option value="Iphone 6S">
+    <option value="Nexus 6">
+  </datalist>
+  
+<input type="button" class="button" onclick="myFunction()" id = "" value="Submit">
+<input type="button" class="button" onclick="myFunction()" id = "" value="Reset">
+  </p>
+  </fieldset>
+  </div>
+  
+  </div>
+  
+  
+<p id="test"></p>
+<script>
+function myFunction() {
+    var x = document.getElementById("myDate").value;
+    document.getElementById("test").innerHTML = x;
+}
+</script>
+</form>
+  
+</form>
+
+</body>
+</html>
